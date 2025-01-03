@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Navbar() {
   return (
     // bg-gradient-to-r from-gray-700 to-gray-900
-    <nav className="navBar p-4 bg- text-white shadow-lg fixed w-[100%] z-10">
+    <nav className="navBar top-0 p-4 bg- text-white shadow-lg fixed w-[100%] z-10">
       <div className="container mx-auto flex justify-between items-center">
         <div>
         <Link href="/" className="font-extrabold text-2xl tracking-wide hover:text-gray-200">
